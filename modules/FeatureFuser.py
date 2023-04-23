@@ -8,6 +8,8 @@ from transformers import WavsVec2ForPreTraining, Wav2Vec2Config
 import argparse
 from transformers.models.wav2vec2.modeling_wav2vec2 import _compute_mask_indices
 
+# The code was copied from https://github.com/b04901014/FT-w2v2-ser. All rights belong to the authors.
+
 class Wav2vecWrapper(nn.Module):
     def __init__(self, modelpath):
         super().__init__()

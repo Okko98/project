@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import torch
 import fairseq
 
+# The code was copied from https://github.com/b04901014/FT-w2v2-ser. All rights belong to the authors.
+
 def tonumpy(x):
     return x.detach().cpu().numpy()
 

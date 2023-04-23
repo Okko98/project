@@ -4,6 +4,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch
 
+
+# The code was copied from https://github.com/b04901014/FT-w2v2-ser. All rights belong to the authors.
+
 class LinearHead(nn.Module):
     def __init__(self, input_dim, hidden_dim, n_classes):
         #input: (B, L, C)
