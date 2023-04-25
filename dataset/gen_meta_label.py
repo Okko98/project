@@ -1,10 +1,9 @@
-import os
-import numpy as np
 import json
-import random
-from pathlib import Path
-import re
+import os
 import sys
+from pathlib import Path
+
+import numpy as np
 
 CREMAD_DIR = Path(sys.argv[1])
 
